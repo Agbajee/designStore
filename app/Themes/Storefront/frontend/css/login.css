@@ -1,0 +1,65 @@
+
+html * {
+    outline: none !important;
+}
+
+
+html, body {
+    background: #eeeeee url(../img/leather_1.html) left top repeat;
+    position: relative;
+    min-height: 100%;
+    margin: 0;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+a {
+    color: #818182;
+}
+
+a:focus,a:hover {
+    text-decoration: none;
+}
+
+a.link {
+    color: #94b7d4;
+}
+
+a.link:focus,a.link:hover {
+    color: #28b779;
+}
+.box {
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.no-wrap td,.no-wrap th {
+    white-space: nowrap;
+}
+
+.text-primary{
+    color: #818182 !important;
+}
+.card:hover {
+    box-shadow: 0px 13px 15px rgba(4,4,4,0.18);
+}
+.text-sm{
+    font-size: 13px !important;
+}
+.user-login .card{
+    padding:20px;
+    border: none;
+    width: 100%;
+    background: #fefefe;
+    border-radius: 5px;
+}
+.user-login .card label{
+    margin-bottom: 2px;
+}
+.user-login .card .card-body{
+    background: #eee;
+    padding:0.5rem 1rem;
+    border:1px solid #dddddd;
+}
+
+
